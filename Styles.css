@@ -42,7 +42,13 @@ body{
     color: white;
     display: block;
     padding: 25px;
+    cursor: pointer;
+    
   }
+  .navbar-links:hover{
+    background-color: black;
+  }
+  
 
   h1{
     color: white;
@@ -56,12 +62,34 @@ p{
   font-size: 20px;
 }
 
+#img-text{
+  display: flex;
+  justify-content: space-evenly;
 
+}
 
+figure.item {
 
-
-
-
+  /* To correctly align image, regardless of content height: */
+  vertical-align: top;
+  display: inline-block;
+  /* To horizontally center images and caption */
+  text-align: center;
+  /* The width of the container also implies margin around the images. */
+  width: 520px;
+  font-weight: bold;
+  
+}
+img {
+  width: 300px;
+  height: 200px;
+  background-color: grey;
+}
+.caption {
+  /* Make the caption a block so it occupies its own line. */
+  display: block;
+  padding: 3%;
+}
 
 
 
@@ -74,11 +102,12 @@ p{
   text-decoration: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #FD9D68;
   color: white;
   font-weight: 700;
   font-size: 25px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -90,16 +119,23 @@ p{
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .footer-links li{
   list-style: none;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-links li a {
   text-decoration: none;
   color: white;
-  display: flex;
   margin: 20px;
+  /* display: flex;
+  justify-content: space-around; */
+  
 }
+
+
