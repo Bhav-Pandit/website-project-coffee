@@ -1,105 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap');
 
-:root{
-  font-family: "raleway";
+body {background-color: #0E1705;
+    margin-right: 0px;
+    width: 100%;
+    margin-top:0px;
+   
 
 }
 
-body{
-  background-color: #0E1705;
-  color: white;
-  margin: 0%;
-  padding: 0%;
+
+.navbarlink {
+    display: flex;  
+    flex-direction: row; 
+    justify-content:space-around;
+    margin: 25px;
+    margin-left: 10000px;
+    margin-right: -100px;
+    padding-left: 0px;
+    margin-left: 900px;
+    list-style-type:none;
+    font-family: "raleway", 'Times New Roman', Times, serif;
+    height: 10px;
+    font-size:large;
 }
 
+.logo{
+  display: flex;  
+  flex-direction: row; 
+  justify-content:space-around;
+  margin-right: 190px;
+  padding-right:-0px ;
+  padding-left: 0px;
+  margin-left: -1000px;
+  margin-top: -6px;
+  list-style-type:none;
+  font-family: "raleway", 'Times New Roman', Times, serif;
+  height: 10px;
+  font-size:large;   
+}
+   
 .navbar{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FD9D68;
-  color: white;
-  font-weight: 700;
-  font-size: 25px;
-  
-  }
+    border-style: solid;
+    background-color:#FD9D68 ;
+    height: 70px;
+    width:100%;
+    padding-right: 100px;
 
-  .brand-title{
-    margin-left: 20px;
-  }
+}
 
-  .navbar-links ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-
-  .navbar-links li {
-    list-style: none;
-    display: flex;
-  }
-
-  .navbar-links li a{
+a:link {
     text-decoration: none;
-    color: white;
-    display: block;
-    padding: 25px;
+    
   }
-
-  h1{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-}
-
-p{
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  background-color: #FD9D68;
-  color: white;
-  font-weight: 700;
-  font-size: 25px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
   
-
-}
-.footer-links ul{
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.footer-links li{
-  list-style: none;
-  display: flex;
-}
-
-.footer-links li a {
-  text-decoration: none;
-  color: white;
-  display: flex;
-  margin: 20px;
-}
+  a:visited {
+    text-decoration: none;
+    color: #0E1705;
+    
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #0E1705;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: #0E1705;
+  }
