@@ -1,70 +1,356 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Condensed&display=swap');
 
-body {background-color: #0E1705;
-    margin-right: 0px;
-    width: 100%;
-    margin-top:0px;
-   
+:root{
+  font-family: "raleway";
 
 }
 
+body{
+  background-color: #0E1705;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+}
 
-.navbarlink {
-    display: flex;  
-    flex-direction: row; 
-    justify-content:space-around;
-    margin: 25px;
-    margin-left: 10000px;
-    margin-right: -100px;
-    padding-left: 0px;
-    margin-left: 900px;
-    list-style-type:none;
-    font-family: "raleway", 'Times New Roman', Times, serif;
-    height: 10px;
-    font-size:large;
+
+
+.navbarlinks {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  list-style-type: none;
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: #FD9D68;
+}
+
+li {
+  float:right;
+  padding-right: -1000px;
+  margin-right: -15px;
+  margin-left: -80px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 70px;
+  margin-right: 7px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #111;
 }
 
 .logo{
-  display: flex;  
-  flex-direction: row; 
-  justify-content:space-around;
-  margin-right: 190px;
-  padding-right:-0px ;
-  padding-left: 0px;
-  margin-left: -1000px;
-  margin-top: -6px;
-  list-style-type:none;
-  font-family: "raleway", 'Times New Roman', Times, serif;
-  height: 10px;
-  font-size:large;   
+  padding-right: 780px;
+  padding-left: 100px;
+  margin-left: 1000px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 120px;
+  width: auto;
+  
 }
+
+  .drinksmenu1{
+display: flex;
+align-items: center;
+flex-direction: column;
+align-content: center;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 100px;
+}
+.para1{
+  font-size: 30px;
+}
+
+.para2{
+  font-weight: 700;
+}
+
+  
+.drinks{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center;
+  text-align: center;
+  align-content:center;
+  margin-top: 100px;
+  padding-top: -100px;
+}
+ 
+  
+  
+ 
+ 
+  
+
+.icedcoffeepic{
+  width:300px ;
+  height:199px;
+}
+
+
+
+.lattepic{
+  width:300px;
+  height:199px;
+}
+.espressopic{
+ 
+  width:300px;
+  height:199px;
+}
+
+.menuitem{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: solid;
+  border-radius: 10px;
+  border-color:#0E1705;
+  color: #111;
+  background-color: #ffffff;
+  
+}
+
+
+.icedcoffee{
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color:#0E1705;
+  color: #111;
+  background-color: #ffffff;
+}
+
+
+.latte{
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color:#0E1705;
+  color: #111;
+  background-color: #ffffff;
+}
+
+.drinks2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items:center;
+  text-align: center;
+  align-content:center;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+
+
+
+
+.footer{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FD9D68;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+   position:absolute;
+  left: 0;
+  right: 0;
+  height: 60px;
+  margin-bottom: -1000px;
+  padding-bottom: 10px;
+  margin-top:  0px;
+  padding-top: 0px;
+  bottom: 0;
    
-.navbar{
-    border-style: solid;
-    background-color:#FD9D68 ;
-    height: 70px;
-    width:100%;
-    padding-right: 100px;
+}
+  
+ 
+.footerdiv{
+  margin-top: 100px;
+  padding-top: 100px;
+  
+}
+
+  
+
+.footer-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.footer-links li{
+  list-style: none;
+  display: flex;
+  
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 10px;
+}
+
+.contactus{
+  margin-top:0;
+  padding-top: 50px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  display: flex ;
+  flex-direction: column;
+
+  
+}
+
+.contactinfo{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 200px;
+  padding-right: 0px;
+  margin-top: -670px;
+  padding-top: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  display: block;
+  align-items: center;
+  padding-right: 1000px;
+  padding-left: 400px;
+  width: 70%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  display: block;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 400px;
+  background-color: #FD9D68;
+  color: white;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 
 }
 
-a:link {
-    text-decoration: none;
-    
-  }
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #0E1705;
+  padding: 100px;
+  display: block;
+  padding-left: 10px;
+  padding-right: 600px;
+  padding-top: 10px;
+ 
   
-  a:visited {
-    text-decoration: none;
-    color: #0E1705;
-    
-  }
   
-  a:hover {
-    text-decoration: none;
-    color: #0E1705;
-  }
+}
+
+.footer2{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FD9D68;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+   position:absolute;
+  left: 0;
+  right: 0;
+  height: 60px;
+  margin-bottom: 900px;
+  padding-bottom: 10px;
+  margin-top:  0px;
+  padding-top: 0px;
+  bottom: 0;
+   
+}
   
-  a:active {
-    text-decoration: none;
-    color: #0E1705;
-  }
+ 
+.footerdiv{
+  margin-top: 100px;
+  padding-top: 100px;
+  
+}
+
+  
+
+.footer-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.footer-links li{
+  list-style: none;
+  display: flex;
+  
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  margin: 10px;
+}
