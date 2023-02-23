@@ -11,7 +11,15 @@ body{
   padding: 0%;
 }
 
-
+.homepage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
 
 .navbarlinks {
   display: flex;
@@ -59,7 +67,7 @@ li a:hover {
   
 }
 
-  .drinksmenu1{
+  .menu1{
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -83,15 +91,15 @@ align-content: center;
 }
 
   
-.drinks{
+.div1{
   display: flex;
   flex-direction: row;
   justify-content:space-evenly;
   align-items:center;
   text-align: center;
   align-content:center;
-  margin-top: 100px;
-  padding-top: -100px;
+  margin-top: 10px;
+  padding-top: 10px;
 }
  
   
@@ -100,25 +108,35 @@ align-content: center;
  
   
 
-.icedcoffeepic{
-  width:300px ;
-  height:199px;
-}
 
 
 
-.lattepic{
-  width:300px;
-  height:199px;
-}
-.espressopic{
+
+
+
+.pic{
  
   width:300px;
   height:199px;
 }
+.picbread{
+  width:300px;
+  height:199px; 
+  position: relative;
+  bottom: 12px;
+  
+}
 
+.pic1{
+  width:300px;
+  height:199px; 
+  position: relative;
+  bottom: 12px;
+  
+}
 .menuitem{
   padding-top: 30px;
+  margin-top: -4px;
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
@@ -131,7 +149,19 @@ align-content: center;
 }
 
 
-.icedcoffee{
+.div2{
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 10px;
+  border-color:#0E1705;
+  color: #111;
+  background-color: #ffffff;
+}
+
+.div3{
   padding-top: 12px;
   padding-bottom: 15px;
   padding-left: 10px;
@@ -144,17 +174,6 @@ align-content: center;
 }
 
 
-.latte{
-  padding-top: 12px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: solid;
-  border-radius: 10px;
-  border-color:#0E1705;
-  color: #111;
-  background-color: #ffffff;
-}
 
 .drinks2{
   display: flex;
